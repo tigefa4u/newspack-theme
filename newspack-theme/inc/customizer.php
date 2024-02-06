@@ -408,7 +408,7 @@ function newspack_customize_register( $wp_customize ) {
 		array(
 			'type'    => 'radio',
 			'label'   => __( 'Colors', 'newspack' ),
-			'choices'  => array(
+			'choices' => array(
 				'default' => _x( 'Default', 'primary color', 'newspack' ),
 				'custom'  => _x( 'Custom', 'primary color', 'newspack' ),
 			),
@@ -580,7 +580,7 @@ function newspack_customize_register( $wp_customize ) {
 		array(
 			'type'    => 'radio',
 			'label'   => __( 'Ads Background Color', 'newspack' ),
-			'choices'   => array(
+			'choices' => array(
 				'default' => _x( 'Default', 'primary color', 'newspack' ),
 				'custom'  => _x( 'Custom', 'primary color', 'newspack' ),
 			),
@@ -863,7 +863,7 @@ function newspack_customize_register( $wp_customize ) {
 			'label'       => __( 'Default Post Template', 'newspack' ),
 			'description' => esc_html__( 'This option changes the selected template used for newly created posts going forward. The template can still be changed on a per-post basis.', 'newspack' ),
 			'choices'     => array(
-				'default'            => esc_html__( 'Default Template', 'newspack' ),
+				'default'            => esc_html__( 'With Sidebar', 'newspack' ),
 				'single-feature.php' => esc_html__( 'One Column', 'newspack' ),
 				'single-wide.php'    => esc_html__( 'One Column Wide', 'newspack' ),
 			),
@@ -959,6 +959,23 @@ function newspack_customize_register( $wp_customize ) {
 		)
 	);
 
+	// Add option to display previous and next links on single posts.
+	$wp_customize->add_setting(
+		'post_excerpt_instead_of_subtitle',
+		array(
+			'default'           => false,
+			'sanitize_callback' => 'newspack_sanitize_checkbox',
+		)
+	);
+	$wp_customize->add_control(
+		'post_excerpt_instead_of_subtitle',
+		array(
+			'type'    => 'checkbox',
+			'label'   => __( 'Display the custom excerpt at the top of single posts instead of the article subtitle.', 'newspack' ),
+			'section' => 'post_default_settings',
+		)
+	);
+
 	/**
 	 * Page Template Settings
 	 */
@@ -1011,7 +1028,7 @@ function newspack_customize_register( $wp_customize ) {
 			'label'       => __( 'Default Page Template', 'newspack' ),
 			'description' => esc_html__( 'This option changes the selected template used for newly created pages going forward. The template can still be changed on a per-page basis.', 'newspack' ),
 			'choices'     => array(
-				'default'            => esc_html__( 'Default Template', 'newspack' ),
+				'default'            => esc_html__( 'With Sidebar', 'newspack' ),
 				'single-feature.php' => esc_html__( 'One Column', 'newspack' ),
 				'single-wide.php'    => esc_html__( 'One Column Wide', 'newspack' ),
 			),
@@ -1047,6 +1064,23 @@ function newspack_customize_register( $wp_customize ) {
 		)
 	);
 
+	// Add option to enable image cropping in the archive pages.
+	$wp_customize->add_setting(
+		'archive_enable_cropping',
+		array(
+			'default'           => true,
+			'sanitize_callback' => 'newspack_sanitize_checkbox',
+		)
+	);
+	$wp_customize->add_control(
+		'archive_enable_cropping',
+		array(
+			'type'    => 'checkbox',
+			'label'   => esc_html__( 'Crop archive images to a 4:3 aspect ratio (changes require regenerating thumbnails for existing featured images)', 'newspack' ),
+			'section' => 'archive_options',
+		)
+	);
+
 	// Add option to change archive layouts.
 	$wp_customize->add_setting(
 		'archive_layout',
@@ -1061,7 +1095,7 @@ function newspack_customize_register( $wp_customize ) {
 			'type'    => 'radio',
 			'label'   => esc_html__( 'Archive Layout', 'newspack' ),
 			'choices' => array(
-				'default'         => esc_html__( 'Default', 'newspack' ),
+				'default'         => esc_html__( 'With sidebar', 'newspack' ),
 				'one-column'      => esc_html__( 'One column', 'newspack' ),
 				'one-column-wide' => esc_html__( 'One column wide', 'newspack' ),
 			),
@@ -1239,149 +1273,6 @@ function newspack_customize_register( $wp_customize ) {
 			'label'       => esc_html__( 'Copyright Information', 'newspack' ),
 			'description' => esc_html__( 'Add custom text to be displayed next to a copyright symbol and current year in the footer. By default, it will display your site title.', 'newspack' ),
 			'section'     => 'footer_options',
-		)
-	);
-
-	/**
-	 * WooCommerce Order Details settings
-	 */
-	$wp_customize->add_section(
-		'woocommerce_cart_options',
-		array(
-			'title' => esc_html__( 'Order Details', 'newspack' ),
-			'panel' => 'woocommerce',
-		)
-	);
-
-	// Add order details visibility options.
-	$wp_customize->add_setting(
-		'collapse_order_details',
-		array(
-			'default'           => 'hide',
-			'sanitize_callback' => 'newspack_sanitize_radio',
-		)
-	);
-	$wp_customize->add_control(
-		'collapse_order_details',
-		array(
-			'type'    => 'radio',
-			'label'   => esc_html__( 'Order Details Visibility', 'newspack' ),
-			'choices' => array(
-				'hide'    => esc_html__( 'Hide', 'newspack' ),
-				'toggle'  => esc_html__( 'Hide, with ability to toggle open', 'newspack' ),
-				'display' => esc_html__( 'Show', 'newspack' ),
-			),
-			'section' => 'woocommerce_cart_options',
-		)
-	);
-
-	/**
-	 * WooCommerce Thank You page details
-	 */
-	$wp_customize->add_section(
-		'woocommerce_thank_you',
-		array(
-			'title' => esc_html__( 'Thank You Page', 'newspack' ),
-			'panel' => 'woocommerce',
-		)
-	);
-
-	// Thank you page title.
-	$wp_customize->add_setting(
-		'woocommerce_thank_you_title',
-		array(
-			'default'           => esc_html__( 'Order received', 'newspack' ),
-			'sanitize_callback' => 'sanitize_text_field',
-		)
-	);
-	$wp_customize->add_control(
-		'woocommerce_thank_you_title',
-		array(
-			'type'    => 'text',
-			'label'   => esc_html__( 'Thank You page title', 'newspack' ),
-			'section' => 'woocommerce_thank_you',
-		)
-	);
-
-	// Thank you message text.
-	$wp_customize->add_setting(
-		'woocommerce_thank_you_message',
-		array(
-			'default'           => esc_html__( 'Thank you. Your order has been received.', 'newspack' ),
-			'sanitize_callback' => 'sanitize_text_field',
-		)
-	);
-	$wp_customize->add_control(
-		'woocommerce_thank_you_message',
-		array(
-			'type'        => 'textarea',
-			'label'       => esc_html__( 'Thank You message', 'newspack' ),
-			'description' => esc_html__( 'Text message that displays at the top of the "Thank You" page.' ),
-			'section'     => 'woocommerce_thank_you',
-		)
-	);
-
-	// Thank you - display customer details
-	$wp_customize->add_setting(
-		'thank_you_customer_details_display',
-		array(
-			'default'           => false,
-			'sanitize_callback' => 'newspack_sanitize_checkbox',
-		)
-	);
-
-	$wp_customize->add_control(
-		'thank_you_customer_details_display',
-		array(
-			'type'        => 'checkbox',
-			'label'       => esc_html__( 'Display Customer Details', 'newspack' ),
-			'description' => esc_html__( 'Display the customer\'s billing address below their transaction details.', 'newspack' ),
-			'section'     => 'woocommerce_thank_you',
-		)
-	);
-
-	/**
-	 * WooCommerce Advanced Settings
-	 */
-	$wp_customize->add_section(
-		'woocommerce_advanced',
-		array(
-			'title' => esc_html__( 'Advanced Settings', 'newspack' ),
-			'panel' => 'woocommerce',
-		)
-	);
-
-	// Dequeue WooCommerce block CSS on the homepage.
-	$wp_customize->add_setting(
-		'woocommerce_block_home_dequeue',
-		array(
-			'default'           => false,
-			'sanitize_callback' => 'newspack_sanitize_checkbox',
-		)
-	);
-	$wp_customize->add_control(
-		'woocommerce_block_home_dequeue',
-		array(
-			'type'    => 'checkbox',
-			'label'   => esc_html__( 'Dequeue WooCommerce Block CSS on the homepage.', 'newspack' ),
-			'section' => 'woocommerce_advanced',
-		)
-	);
-
-	// Dequeue WooCommerce CSS on the homepage.
-	$wp_customize->add_setting(
-		'woocommerce_styles_home_dequeue',
-		array(
-			'default'           => false,
-			'sanitize_callback' => 'newspack_sanitize_checkbox',
-		)
-	);
-	$wp_customize->add_control(
-		'woocommerce_styles_home_dequeue',
-		array(
-			'type'    => 'checkbox',
-			'label'   => esc_html__( 'Dequeue WooCommerce CSS on the homepage.', 'newspack' ),
-			'section' => 'woocommerce_advanced',
 		)
 	);
 }

@@ -31,13 +31,13 @@
 	}
 
 	.menu-label {
-		color: var( --newspack-theme-color-secondary );
+		color: var( --newspack-theme-color-secondary-against-white );
 		font-weight: bold;
 	}
 
 	a,
 	a:visited {
-		color: var( --newspack-theme-color-link );
+		color: var( --newspack-theme-color-text-light );
 	}
 }
 

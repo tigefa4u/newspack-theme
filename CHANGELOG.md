@@ -1,3 +1,368 @@
+## [1.84.1](https://github.com/Automattic/newspack-theme/compare/v1.84.0...v1.84.1) (2024-02-06)
+
+
+### Bug Fixes
+
+* **my-account:** make active menu links clickable ([#2221](https://github.com/Automattic/newspack-theme/issues/2221)) ([23f8955](https://github.com/Automattic/newspack-theme/commit/23f89555323669b806849d7e688a18c9898ce30a))
+* replace contrast-related colours code with CSS variables ([#2109](https://github.com/Automattic/newspack-theme/issues/2109)) ([b2dbc60](https://github.com/Automattic/newspack-theme/commit/b2dbc607fdcbb70952a186b71ac6b7b81d4b994d))
+
+## [1.84.1-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.84.0...v1.84.1-alpha.1) (2024-01-26)
+
+
+### Bug Fixes
+
+* **my-account:** make active menu links clickable ([#2221](https://github.com/Automattic/newspack-theme/issues/2221)) ([23f8955](https://github.com/Automattic/newspack-theme/commit/23f89555323669b806849d7e688a18c9898ce30a))
+* replace contrast-related colours code with CSS variables ([#2109](https://github.com/Automattic/newspack-theme/issues/2109)) ([b2dbc60](https://github.com/Automattic/newspack-theme/commit/b2dbc607fdcbb70952a186b71ac6b7b81d4b994d))
+
+# [1.84.0](https://github.com/Automattic/newspack-theme/compare/v1.83.0...v1.84.0) (2024-01-25)
+
+
+### Features
+
+* add support to Newspack Network distributed authors ([7c9463d](https://github.com/Automattic/newspack-theme/commit/7c9463ddfa49e6d824ee1eee9cc5ff82e0c92586))
+
+# [1.84.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.83.0...v1.84.0-alpha.1) (2024-01-11)
+
+
+### Features
+
+* add support to Newspack Network distributed authors ([7c9463d](https://github.com/Automattic/newspack-theme/commit/7c9463ddfa49e6d824ee1eee9cc5ff82e0c92586))
+
+# [1.83.0](https://github.com/Automattic/newspack-theme/compare/v1.82.0...v1.83.0) (2024-01-08)
+
+
+### Bug Fixes
+
+* make sidebar donate block button style more specific ([#2217](https://github.com/Automattic/newspack-theme/issues/2217)) ([10609d7](https://github.com/Automattic/newspack-theme/commit/10609d7e226a21b66499726314de6bb3e0d1231f))
+
+
+### Features
+
+* add filter to social icons map ([#2212](https://github.com/Automattic/newspack-theme/issues/2212)) ([7b6c411](https://github.com/Automattic/newspack-theme/commit/7b6c4117a07ad97c4e20aa5ca5680830c61114bc))
+
+# [1.83.0-alpha.2](https://github.com/Automattic/newspack-theme/compare/v1.83.0-alpha.1...v1.83.0-alpha.2) (2024-01-04)
+
+
+### Bug Fixes
+
+* make sidebar donate block button style more specific ([#2217](https://github.com/Automattic/newspack-theme/issues/2217)) ([10609d7](https://github.com/Automattic/newspack-theme/commit/10609d7e226a21b66499726314de6bb3e0d1231f))
+
+# [1.83.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.82.0...v1.83.0-alpha.1) (2023-12-15)
+
+
+### Features
+
+* add filter to social icons map ([#2212](https://github.com/Automattic/newspack-theme/issues/2212)) ([7b6c411](https://github.com/Automattic/newspack-theme/commit/7b6c4117a07ad97c4e20aa5ca5680830c61114bc))
+
+# [1.82.0](https://github.com/Automattic/newspack-theme/compare/v1.81.0...v1.82.0) (2023-12-11)
+
+
+### Features
+
+* filter JS and print styles enqueuing ([#2207](https://github.com/Automattic/newspack-theme/issues/2207)) ([86d60bf](https://github.com/Automattic/newspack-theme/commit/86d60bf04f622fd29ce976c7405338ceab13d490))
+
+# [1.82.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.81.0...v1.82.0-alpha.1) (2023-12-01)
+
+
+### Features
+
+* filter JS and print styles enqueuing ([#2207](https://github.com/Automattic/newspack-theme/issues/2207)) ([86d60bf](https://github.com/Automattic/newspack-theme/commit/86d60bf04f622fd29ce976c7405338ceab13d490))
+
+# [1.81.0](https://github.com/Automattic/newspack-theme/compare/v1.80.0...v1.81.0) (2023-11-27)
+
+
+### Bug Fixes
+
+* add a scroll-margin to anchors for sticky header ([#2195](https://github.com/Automattic/newspack-theme/issues/2195)) ([acb38af](https://github.com/Automattic/newspack-theme/commit/acb38afa1be0a0256f58231626f21150316df5ed))
+* clears woo template cache ([#2201](https://github.com/Automattic/newspack-theme/issues/2201)) ([d7bcd79](https://github.com/Automattic/newspack-theme/commit/d7bcd791603a019ec0f2abbde17eacc04a725c42))
+
+
+### Features
+
+* add single post option to display custom excerpt in lieu of subtitle ([#2194](https://github.com/Automattic/newspack-theme/issues/2194)) ([fdc0eab](https://github.com/Automattic/newspack-theme/commit/fdc0eab51380d79139e88021cce2be2eceefdcb3))
+* add WhatsApp icon ([#2196](https://github.com/Automattic/newspack-theme/issues/2196)) ([eec3d96](https://github.com/Automattic/newspack-theme/commit/eec3d9628a0ca6bc76355aab0f3a6972202d3032))
+
+# [1.81.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.80.0...v1.81.0-alpha.1) (2023-11-16)
+
+
+### Bug Fixes
+
+* add a scroll-margin to anchors for sticky header ([#2195](https://github.com/Automattic/newspack-theme/issues/2195)) ([acb38af](https://github.com/Automattic/newspack-theme/commit/acb38afa1be0a0256f58231626f21150316df5ed))
+* clears woo template cache ([#2201](https://github.com/Automattic/newspack-theme/issues/2201)) ([d7bcd79](https://github.com/Automattic/newspack-theme/commit/d7bcd791603a019ec0f2abbde17eacc04a725c42))
+
+
+### Features
+
+* add single post option to display custom excerpt in lieu of subtitle ([#2194](https://github.com/Automattic/newspack-theme/issues/2194)) ([fdc0eab](https://github.com/Automattic/newspack-theme/commit/fdc0eab51380d79139e88021cce2be2eceefdcb3))
+* add WhatsApp icon ([#2196](https://github.com/Automattic/newspack-theme/issues/2196)) ([eec3d96](https://github.com/Automattic/newspack-theme/commit/eec3d9628a0ca6bc76355aab0f3a6972202d3032))
+
+# [1.80.0](https://github.com/Automattic/newspack-theme/compare/v1.79.2...v1.80.0) (2023-11-13)
+
+
+### Bug Fixes
+
+* clears woo template cache ([#2201](https://github.com/Automattic/newspack-theme/issues/2201)) ([b279d0d](https://github.com/Automattic/newspack-theme/commit/b279d0d9267a10456abaf2e60d4d4d2a1bb8f1b7))
+* reinstate WC CSS modifications ([aeb4439](https://github.com/Automattic/newspack-theme/commit/aeb4439ce861ff7610f38b10b69a6ab74be45743)), closes [#2191](https://github.com/Automattic/newspack-theme/issues/2191)
+
+
+### Features
+
+* **woocommerce:** remove woocommerce templates and dequeueing ([c79953e](https://github.com/Automattic/newspack-theme/commit/c79953e61a7dacbf3e67291192742bf74a0f640f))
+
+# [1.80.0-alpha.4](https://github.com/Automattic/newspack-theme/compare/v1.80.0-alpha.3...v1.80.0-alpha.4) (2023-11-10)
+
+
+### Bug Fixes
+
+* avoid fatals on TEC updates ([#2203](https://github.com/Automattic/newspack-theme/issues/2203)) ([83ed541](https://github.com/Automattic/newspack-theme/commit/83ed5411342f2180a636b93e06d69679acde1679))
+
+## [1.79.2](https://github.com/Automattic/newspack-theme/compare/v1.79.1...v1.79.2) (2023-11-10)
+
+
+### Bug Fixes
+
+* avoid fatals on TEC updates ([#2203](https://github.com/Automattic/newspack-theme/issues/2203)) ([83ed541](https://github.com/Automattic/newspack-theme/commit/83ed5411342f2180a636b93e06d69679acde1679))
+
+## [1.79.1](https://github.com/Automattic/newspack-theme/compare/v1.79.0...v1.79.1) (2023-11-08)
+
+
+### Bug Fixes
+
+* force release due to last commit being chore ([ee17396](https://github.com/Automattic/newspack-theme/commit/ee17396574f956f17842e64c3ac10b88f0cf5ee6))
+
+# [1.79.0](https://github.com/Automattic/newspack-theme/compare/v1.78.0...v1.79.0) (2023-10-31)
+
+
+### Features
+
+* add X icon to social links menu ([#2187](https://github.com/Automattic/newspack-theme/issues/2187)) ([f902d38](https://github.com/Automattic/newspack-theme/commit/f902d38679d246ac1534e32c92af6b60f10a2a54))
+* **customizer:** change default template's name ([6d41c7c](https://github.com/Automattic/newspack-theme/commit/6d41c7c26b446974b6fcc9acde0c7c3fa742ba25))
+
+# [1.79.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.78.0...v1.79.0-alpha.1) (2023-10-18)
+
+
+### Features
+
+* add X icon to social links menu ([#2187](https://github.com/Automattic/newspack-theme/issues/2187)) ([f902d38](https://github.com/Automattic/newspack-theme/commit/f902d38679d246ac1534e32c92af6b60f10a2a54))
+* **customizer:** change default template's name ([6d41c7c](https://github.com/Automattic/newspack-theme/commit/6d41c7c26b446974b6fcc9acde0c7c3fa742ba25))
+
+# [1.78.0](https://github.com/Automattic/newspack-theme/compare/v1.77.2...v1.78.0) (2023-10-09)
+
+
+### Bug Fixes
+
+* make newsletter subscribe button style more specific ([#2177](https://github.com/Automattic/newspack-theme/issues/2177)) ([18d3e2c](https://github.com/Automattic/newspack-theme/commit/18d3e2c30e62f5a5fd281b6c64a0bbadb937b918))
+
+
+### Features
+
+* **woocommerce:** thank you template hook ([#2180](https://github.com/Automattic/newspack-theme/issues/2180)) ([aba2314](https://github.com/Automattic/newspack-theme/commit/aba2314746d83123df1cfac0bc71e2b34df6fa48))
+
+# [1.78.0-alpha.2](https://github.com/Automattic/newspack-theme/compare/v1.78.0-alpha.1...v1.78.0-alpha.2) (2023-10-02)
+
+
+### Bug Fixes
+
+* make newsletter subscribe button style more specific ([#2177](https://github.com/Automattic/newspack-theme/issues/2177)) ([18d3e2c](https://github.com/Automattic/newspack-theme/commit/18d3e2c30e62f5a5fd281b6c64a0bbadb937b918))
+
+# [1.78.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.77.2...v1.78.0-alpha.1) (2023-09-28)
+
+
+### Features
+
+* **woocommerce:** thank you template hook ([#2180](https://github.com/Automattic/newspack-theme/issues/2180)) ([aba2314](https://github.com/Automattic/newspack-theme/commit/aba2314746d83123df1cfac0bc71e2b34df6fa48))
+
+## [1.77.2](https://github.com/Automattic/newspack-theme/compare/v1.77.1...v1.77.2) (2023-09-25)
+
+
+### Bug Fixes
+
+* correct group block alignment in editor preview ([#2176](https://github.com/Automattic/newspack-theme/issues/2176)) ([8431906](https://github.com/Automattic/newspack-theme/commit/84319066842b0aea136b1ccab4d5c1f6c3b93592))
+* update WooCommerce template to v8.1.0 ([#2178](https://github.com/Automattic/newspack-theme/issues/2178)) ([dceb031](https://github.com/Automattic/newspack-theme/commit/dceb031ee60e27cfac505aec44994ece3298ce74))
+
+## [1.77.2-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.77.1...v1.77.2-alpha.1) (2023-09-15)
+
+
+### Bug Fixes
+
+* correct group block alignment in editor preview ([#2176](https://github.com/Automattic/newspack-theme/issues/2176)) ([8431906](https://github.com/Automattic/newspack-theme/commit/84319066842b0aea136b1ccab4d5c1f6c3b93592))
+* update WooCommerce template to v8.1.0 ([#2178](https://github.com/Automattic/newspack-theme/issues/2178)) ([dceb031](https://github.com/Automattic/newspack-theme/commit/dceb031ee60e27cfac505aec44994ece3298ce74))
+
+## [1.77.1](https://github.com/Automattic/newspack-theme/compare/v1.77.0...v1.77.1) (2023-08-11)
+
+
+### Bug Fixes
+
+* force height: auto on image blocks to fix scaling issue ([#2174](https://github.com/Automattic/newspack-theme/issues/2174)) ([442f1ca](https://github.com/Automattic/newspack-theme/commit/442f1ca184f61ca510ee77f3eba049c2eb30b8e0))
+
+# [1.77.0](https://github.com/Automattic/newspack-theme/compare/v1.76.0...v1.77.0) (2023-08-08)
+
+
+### Bug Fixes
+
+* add padding to the file block when it has a background ([#2168](https://github.com/Automattic/newspack-theme/issues/2168)) ([5a29efa](https://github.com/Automattic/newspack-theme/commit/5a29efa22841a101e6b4857ef1a86517c30bf064))
+* improve new search setting appearance for WP 6.3 ([#2167](https://github.com/Automattic/newspack-theme/issues/2167)) ([a87f7e5](https://github.com/Automattic/newspack-theme/commit/a87f7e51c37d9d342a86859a5735f20d2e464b7e))
+
+
+### Features
+
+* add downloads details to checkout ([#2162](https://github.com/Automattic/newspack-theme/issues/2162)) ([81c52f5](https://github.com/Automattic/newspack-theme/commit/81c52f55328e1aa1ea4e065fd31c830977b13831))
+* add styles for the details block ([#2165](https://github.com/Automattic/newspack-theme/issues/2165)) ([25832c3](https://github.com/Automattic/newspack-theme/commit/25832c3483d8a5d62a9a0e957c722fbbb866a9ca))
+* add styles for the footnote block ([#2166](https://github.com/Automattic/newspack-theme/issues/2166)) ([22732f5](https://github.com/Automattic/newspack-theme/commit/22732f5e6ffb79a9d35f0d7f826fb0df93d007d1))
+* add Threads logo to the social links menu ([#2158](https://github.com/Automattic/newspack-theme/issues/2158)) ([64bf6c1](https://github.com/Automattic/newspack-theme/commit/64bf6c184c27d009bce2c71e62b8debc6173b596))
+
+# [1.77.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.76.0...v1.77.0-alpha.1) (2023-08-08)
+
+
+### Bug Fixes
+
+* add padding to the file block when it has a background ([#2168](https://github.com/Automattic/newspack-theme/issues/2168)) ([5a29efa](https://github.com/Automattic/newspack-theme/commit/5a29efa22841a101e6b4857ef1a86517c30bf064))
+* improve new search setting appearance for WP 6.3 ([#2167](https://github.com/Automattic/newspack-theme/issues/2167)) ([a87f7e5](https://github.com/Automattic/newspack-theme/commit/a87f7e51c37d9d342a86859a5735f20d2e464b7e))
+
+
+### Features
+
+* add downloads details to checkout ([#2162](https://github.com/Automattic/newspack-theme/issues/2162)) ([81c52f5](https://github.com/Automattic/newspack-theme/commit/81c52f55328e1aa1ea4e065fd31c830977b13831))
+* add styles for the details block ([#2165](https://github.com/Automattic/newspack-theme/issues/2165)) ([25832c3](https://github.com/Automattic/newspack-theme/commit/25832c3483d8a5d62a9a0e957c722fbbb866a9ca))
+* add styles for the footnote block ([#2166](https://github.com/Automattic/newspack-theme/issues/2166)) ([22732f5](https://github.com/Automattic/newspack-theme/commit/22732f5e6ffb79a9d35f0d7f826fb0df93d007d1))
+* add Threads logo to the social links menu ([#2158](https://github.com/Automattic/newspack-theme/issues/2158)) ([64bf6c1](https://github.com/Automattic/newspack-theme/commit/64bf6c184c27d009bce2c71e62b8debc6173b596))
+
+# [1.76.0](https://github.com/Automattic/newspack-theme/compare/v1.75.1...v1.76.0) (2023-08-07)
+
+
+### Features
+
+* make menu display functions pluggable ([#2159](https://github.com/Automattic/newspack-theme/issues/2159)) ([52876d4](https://github.com/Automattic/newspack-theme/commit/52876d4d4fc3b9f0c2955078817514ed91a8d1a3))
+
+# [1.76.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.75.1...v1.76.0-alpha.1) (2023-07-20)
+
+
+### Features
+
+* make menu display functions pluggable ([#2159](https://github.com/Automattic/newspack-theme/issues/2159)) ([52876d4](https://github.com/Automattic/newspack-theme/commit/52876d4d4fc3b9f0c2955078817514ed91a8d1a3))
+
+## [1.75.1](https://github.com/Automattic/newspack-theme/compare/v1.75.0...v1.75.1) (2023-07-17)
+
+
+### Bug Fixes
+
+* add clamp to higher spacing values ([#2157](https://github.com/Automattic/newspack-theme/issues/2157)) ([68e18e5](https://github.com/Automattic/newspack-theme/commit/68e18e508fe89b20f0267f7872e68ce26449f0ab))
+* reorder author bio truncation order ([#2156](https://github.com/Automattic/newspack-theme/issues/2156)) ([64504c0](https://github.com/Automattic/newspack-theme/commit/64504c0a8f6c8e55a00fc6e6742920163a50dbf1))
+* **woocommerce:** account page grid on member area ([#2150](https://github.com/Automattic/newspack-theme/issues/2150)) ([b0e6409](https://github.com/Automattic/newspack-theme/commit/b0e64099d39eba24c27f2160c400528fd9c86a7e))
+
+## [1.75.1-alpha.2](https://github.com/Automattic/newspack-theme/compare/v1.75.1-alpha.1...v1.75.1-alpha.2) (2023-07-12)
+
+
+### Bug Fixes
+
+* add clamp to higher spacing values ([#2157](https://github.com/Automattic/newspack-theme/issues/2157)) ([68e18e5](https://github.com/Automattic/newspack-theme/commit/68e18e508fe89b20f0267f7872e68ce26449f0ab))
+* reorder author bio truncation order ([#2156](https://github.com/Automattic/newspack-theme/issues/2156)) ([64504c0](https://github.com/Automattic/newspack-theme/commit/64504c0a8f6c8e55a00fc6e6742920163a50dbf1))
+
+## [1.75.1-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.75.0...v1.75.1-alpha.1) (2023-07-07)
+
+
+### Bug Fixes
+
+* **woocommerce:** account page grid on member area ([#2150](https://github.com/Automattic/newspack-theme/issues/2150)) ([b0e6409](https://github.com/Automattic/newspack-theme/commit/b0e64099d39eba24c27f2160c400528fd9c86a7e))
+
+# [1.75.0](https://github.com/Automattic/newspack-theme/compare/v1.74.0...v1.75.0) (2023-07-03)
+
+
+### Bug Fixes
+
+* add default for the archive image cropping ([#2151](https://github.com/Automattic/newspack-theme/issues/2151)) ([279d66e](https://github.com/Automattic/newspack-theme/commit/279d66e8a579fadf3600eb3facc6b7ffbf6e5417))
+* correct sidebar link colour ([#2131](https://github.com/Automattic/newspack-theme/issues/2131)) ([a3ff141](https://github.com/Automattic/newspack-theme/commit/a3ff141db636396eb44376417889348cfc9f28f2))
+* correct sponsor logo size ([#2130](https://github.com/Automattic/newspack-theme/issues/2130)) ([6baab49](https://github.com/Automattic/newspack-theme/commit/6baab494007b601321c01741e3834db878bdd401))
+
+
+### Features
+
+* add option to disable archive image cropping ([#2145](https://github.com/Automattic/newspack-theme/issues/2145)) ([82cac47](https://github.com/Automattic/newspack-theme/commit/82cac47f26f1b274b32b5b1ef83e8d69dc82645b))
+* hide/unset alternative logos when multibranded is enabled ([#2132](https://github.com/Automattic/newspack-theme/issues/2132)) ([575d7f9](https://github.com/Automattic/newspack-theme/commit/575d7f901274719d92fdc9f4034003bfff0b5827))
+* improve mobile styles for related posts ([#2129](https://github.com/Automattic/newspack-theme/issues/2129)) ([b5e6476](https://github.com/Automattic/newspack-theme/commit/b5e6476756d151654da45d2281336de2e70da457))
+* move the RSS image to the Newspack Plugin ([#2139](https://github.com/Automattic/newspack-theme/issues/2139)) ([887c5b4](https://github.com/Automattic/newspack-theme/commit/887c5b4a099220cb8f3f5036948348a1476d33a9))
+
+# [1.75.0-alpha.2](https://github.com/Automattic/newspack-theme/compare/v1.75.0-alpha.1...v1.75.0-alpha.2) (2023-06-30)
+
+
+### Bug Fixes
+
+* add default for the archive image cropping ([#2151](https://github.com/Automattic/newspack-theme/issues/2151)) ([279d66e](https://github.com/Automattic/newspack-theme/commit/279d66e8a579fadf3600eb3facc6b7ffbf6e5417))
+
+# [1.75.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.74.0...v1.75.0-alpha.1) (2023-06-22)
+
+
+### Bug Fixes
+
+* correct sidebar link colour ([#2131](https://github.com/Automattic/newspack-theme/issues/2131)) ([a3ff141](https://github.com/Automattic/newspack-theme/commit/a3ff141db636396eb44376417889348cfc9f28f2))
+* correct sponsor logo size ([#2130](https://github.com/Automattic/newspack-theme/issues/2130)) ([6baab49](https://github.com/Automattic/newspack-theme/commit/6baab494007b601321c01741e3834db878bdd401))
+
+
+### Features
+
+* add option to disable archive image cropping ([#2145](https://github.com/Automattic/newspack-theme/issues/2145)) ([82cac47](https://github.com/Automattic/newspack-theme/commit/82cac47f26f1b274b32b5b1ef83e8d69dc82645b))
+* hide/unset alternative logos when multibranded is enabled ([#2132](https://github.com/Automattic/newspack-theme/issues/2132)) ([575d7f9](https://github.com/Automattic/newspack-theme/commit/575d7f901274719d92fdc9f4034003bfff0b5827))
+* improve mobile styles for related posts ([#2129](https://github.com/Automattic/newspack-theme/issues/2129)) ([b5e6476](https://github.com/Automattic/newspack-theme/commit/b5e6476756d151654da45d2281336de2e70da457))
+* move the RSS image to the Newspack Plugin ([#2139](https://github.com/Automattic/newspack-theme/issues/2139)) ([887c5b4](https://github.com/Automattic/newspack-theme/commit/887c5b4a099220cb8f3f5036948348a1476d33a9))
+
+# [1.74.0](https://github.com/Automattic/newspack-theme/compare/v1.73.0...v1.74.0) (2023-06-19)
+
+
+### Bug Fixes
+
+* correct highlight menu colour ([#2112](https://github.com/Automattic/newspack-theme/issues/2112)) ([6a18039](https://github.com/Automattic/newspack-theme/commit/6a18039c5d7aebd92efc08e6db6d7b0717871949))
+* correct typo in the multi-branded site UI ([#2137](https://github.com/Automattic/newspack-theme/issues/2137)) ([c3106ff](https://github.com/Automattic/newspack-theme/commit/c3106ff7b12ec85d2a81ebb75e689478ee3826c0))
+* move caption check to fix campaigns issue ([#2127](https://github.com/Automattic/newspack-theme/issues/2127)) ([90e9555](https://github.com/Automattic/newspack-theme/commit/90e95556776b2823fbc799a0ac21257e5fdfdb2c))
+
+
+### Features
+
+* register header and footer colors to Multibranded plugin ([#2124](https://github.com/Automattic/newspack-theme/issues/2124)) ([7854f97](https://github.com/Automattic/newspack-theme/commit/7854f97232f7cc08bd702c7af82457517520ce7f))
+
+# [1.74.0-alpha.2](https://github.com/Automattic/newspack-theme/compare/v1.74.0-alpha.1...v1.74.0-alpha.2) (2023-06-12)
+
+
+### Bug Fixes
+
+* correct typo in the multi-branded site UI ([#2137](https://github.com/Automattic/newspack-theme/issues/2137)) ([c3106ff](https://github.com/Automattic/newspack-theme/commit/c3106ff7b12ec85d2a81ebb75e689478ee3826c0))
+* move caption check to fix campaigns issue ([#2127](https://github.com/Automattic/newspack-theme/issues/2127)) ([90e9555](https://github.com/Automattic/newspack-theme/commit/90e95556776b2823fbc799a0ac21257e5fdfdb2c))
+
+# [1.74.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.73.0...v1.74.0-alpha.1) (2023-06-08)
+
+
+### Bug Fixes
+
+* correct highlight menu colour ([#2112](https://github.com/Automattic/newspack-theme/issues/2112)) ([6a18039](https://github.com/Automattic/newspack-theme/commit/6a18039c5d7aebd92efc08e6db6d7b0717871949))
+
+
+### Features
+
+* register header and footer colors to Multibranded plugin ([#2124](https://github.com/Automattic/newspack-theme/issues/2124)) ([7854f97](https://github.com/Automattic/newspack-theme/commit/7854f97232f7cc08bd702c7af82457517520ce7f))
+
+# [1.73.0](https://github.com/Automattic/newspack-theme/compare/v1.72.0...v1.73.0) (2023-06-05)
+
+
+### Bug Fixes
+
+* remove unnecessary sponsor logo spacing ([#2120](https://github.com/Automattic/newspack-theme/issues/2120)) ([ad66f3f](https://github.com/Automattic/newspack-theme/commit/ad66f3f38975982f4ae4bb8b893d3735f69f1052))
+
+
+### Features
+
+* add links to the author bio ([#2114](https://github.com/Automattic/newspack-theme/issues/2114)) ([3cc0525](https://github.com/Automattic/newspack-theme/commit/3cc052515050e1d9a3958af40f54da1ecb3feae6))
+
+# [1.73.0-alpha.1](https://github.com/Automattic/newspack-theme/compare/v1.72.0...v1.73.0-alpha.1) (2023-05-25)
+
+
+### Bug Fixes
+
+* remove unnecessary sponsor logo spacing ([#2120](https://github.com/Automattic/newspack-theme/issues/2120)) ([ad66f3f](https://github.com/Automattic/newspack-theme/commit/ad66f3f38975982f4ae4bb8b893d3735f69f1052))
+
+
+### Features
+
+* add links to the author bio ([#2114](https://github.com/Automattic/newspack-theme/issues/2114)) ([3cc0525](https://github.com/Automattic/newspack-theme/commit/3cc052515050e1d9a3958af40f54da1ecb3feae6))
+
 # [1.72.0](https://github.com/Automattic/newspack-theme/compare/v1.71.1...v1.72.0) (2023-05-24)
 
 

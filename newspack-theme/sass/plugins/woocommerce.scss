@@ -31,7 +31,7 @@ a.button {
 	text-align: center;
 	box-sizing: border-box;
 	word-break: break-all;
-	color: #fff;
+	color: var( --newspack-theme-color-against-secondary );
 	text-decoration: none !important;
 
 	&:hover,
@@ -106,7 +106,7 @@ a.button {
 	left: 0;
 	display: inline-block;
 	background: var( --newspack-theme-color-primary );
-	color: #fff;
+	color: var( --newspack-theme-color-against-primary );
 	font-size: 0.7111em;
 	font-weight: 700;
 	letter-spacing: -0.02em;
@@ -182,7 +182,7 @@ a.button {
 
 .woocommerce-store-notice {
 	background: var( --newspack-theme-color-primary );
-	color: #fff;
+	color: var( --newspack-theme-color-against-primary );
 	padding: 1rem;
 	position: absolute;
 	top: 0;
@@ -197,11 +197,11 @@ a.button {
 
 .woocommerce-store-notice__dismiss-link {
 	float: right;
-	color: #fff;
+	color: var( --newspack-theme-color-against-primary );
 
 	&:hover {
 		text-decoration: underline;
-		color: #fff;
+		color: var( --newspack-theme-color-against-primary );
 	}
 }
 
@@ -988,13 +988,15 @@ table.variations {
 				font-weight: 700;
 
 				&:hover {
-					color: #005177;
+					color: var( --newspack-theme-color-primary );
 					text-decoration: underline;
 				}
 			}
 
 			&.is-active {
 				a {
+					background: var( --newspack-theme-color-primary );
+					color: var( --newspack-theme-color-against-primary );
 					text-decoration: underline;
 				}
 			}
@@ -1225,8 +1227,8 @@ table.variations {
 		}
 
 		input[type='checkbox']:checked + span::before {
-			border-color: var( --newspack-theme-color-secondary-variation );
-			background: var( --newspack-theme-color-secondary-variation );
+			border-color: var( --newspack-theme-color-secondary-against-white );
+			background: var( --newspack-theme-color-secondary-against-white );
 		}
 	}
 }
@@ -1378,7 +1380,8 @@ table.woocommerce-table--order-details.shop_table,
 .woocommerce-product-attributes,
 .woocommerce-grouped-product-list.group_table,
 .woocommerce-cart-form .woocommerce-cart-form__contents,
-.cart-collaterals .shop_table_responsive {
+.cart-collaterals .shop_table_responsive,
+.woocommerce-table--order-downloads {
 	border-top: 1px solid var( --newspack-theme-color-border );
 
 	thead {
@@ -1555,10 +1558,6 @@ table.woocommerce-table--order-details.shop_table,
 		table.shop_table_responsive {
 			tr {
 				margin: 0 0 1.5rem;
-
-				&:first-child {
-					border-top: 1px solid;
-				}
 
 				&:last-child {
 					margin-bottom: 0;
@@ -1833,7 +1832,7 @@ table.woocommerce-table--order-details.shop_table,
 					&:hover,
 					&:hover:visited {
 						background: var( --newspack-theme-color-bg-body );
-						color: var( --newspack-theme-color-primary );
+						color: var( --newspack-theme-color-primary-against-white );
 						cursor: pointer;
 					}
 
@@ -1852,7 +1851,7 @@ table.woocommerce-table--order-details.shop_table,
 				&.is-active {
 					a {
 						background: var( --newspack-theme-color-primary );
-						color: var( --newspack-theme-color-bg-body );
+						color: var( --newspack-theme-color-against-primary );
 						pointer-events: none;
 
 						&:focus-visible {
@@ -1879,7 +1878,7 @@ table.woocommerce-table--order-details.shop_table,
 	}
 
 	@include utilities.media( tablet ) {
-		.entry-content > .woocommerce {
+		.entry-content .woocommerce {
 			align-items: start;
 			display: grid;
 			gap: 3.2rem;
